@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.plugins.sonar.SonarPublisher_-DescriptorImpl plugin="sonar@2.3">
+  <installations>
+    <hudson.plugins.sonar.SonarInstallation>
+      <name>SonarQube</name>
+      <disabled>false</disabled>
+      <serverUrl>http://192.168.99.100:9000</serverUrl>
+      <mojoVersion>3.3.9</mojoVersion>
+      <databaseUrl>jdbc:mysql://192.168.99.100:3306/sonar?useUnicode=true&amp;characterEncoding=utf8&amp;rewriteBatchedStatements=true&amp;useConfigs=maxPerformance</databaseUrl>
+      <databaseLogin>sonar</databaseLogin>
+      <additionalProperties></additionalProperties>
+      <additionalAnalysisProperties></additionalAnalysisProperties>
+      <triggers>
+        <skipScmCause>false</skipScmCause>
+        <skipUpstreamCause>false</skipUpstreamCause>
+        <envVar></envVar>
+      </triggers>
+      <sonarLogin>admin</sonarLogin>
+      <databaseSecret>J/4WMTrHQ6LZJmNG2Tb8/Jx7PlZOEGE2vr1XSbfZAL8=</databaseSecret>
+      <sonarSecret>FO3L/TTRZUXwhvROjk5R55x7PlZOEGE2vr1XSbfZAL8=</sonarSecret>
+    </hudson.plugins.sonar.SonarInstallation>
+  </installations>
+  <buildWrapperEnabled>false</buildWrapperEnabled>
+</hudson.plugins.sonar.SonarPublisher_-DescriptorImpl>
